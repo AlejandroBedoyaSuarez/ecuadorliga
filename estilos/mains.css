@@ -292,3 +292,399 @@ html {
     margin-top: 20px;
     /* Espacio entre la primera y segunda fila */
 }
+
+/*------------------------------------------------------*/
+
+/*Equipos*/
+
+.Titulo-equipos{
+    font-family: teko;
+    size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Independiente{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Independiente img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Liga{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Liga img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Orense{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Orense img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Mushuc{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Mushuc img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Catolica{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Catolica img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Macara{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Macara img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Barcelona{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Barcelona img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.tec-universitario{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.tec-universitario img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Delfin{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Delfin img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Nacho{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Nacho img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Imbabura{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Imbabura img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Libertad{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Libertad img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Cuenca{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Cuenca img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Emelec{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Emelec img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Cumbaya{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Cumbaya img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
+.Equipos{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en cada fila */
+}
+
+.Aucas{
+    text-align: center; /* Centra el texto y la imagen */
+}
+
+.Aucas img{
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    flex: 0 1 calc(25% - 20px); /* Cada imagen ocupa el 25% menos el espacio entre imágenes */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .Equipos {
+        grid-template-columns: repeat(2, 1fr); /* En pantallas pequeñas, usa solo 2 columnas */
+    }
+}
+
