@@ -1,8 +1,15 @@
 html {
     font-size: 16px;
+    background-image: url(../ImagenesPro/Fondito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-/* Para la barra superior */
+
+/*Para la barra superior*/
 .barra-superior {
     display: flex;
     justify-content: space-between;
@@ -10,42 +17,62 @@ html {
     padding: 10px;
 }
 
-/* Para el logo de YouTube */
+/*Para el logo de YouTube*/
 .logo-youtube {
+    text-decoration: none;
+    color: #ca7474;
     font-size: 50px;
-    color: #FF0000;
-    padding-left: 20px;
+    transition: color 0.3s ease
 }
 
-/* Enlaces de "Horarios" y "Equipos" */
+/*Enlaces de "Horarios" y "Equipos"*/
 .enlaces {
     display: flex;
-    gap: 30px; /* Espacio entre los enlaces */
-    padding-right: 20px; /* Espacio a la derecha */
+    gap: 100px;
+    /* Espacio entre los enlaces */
+    padding-right: 30px;
+    /* Espacio a la derecha */
 }
 
 .enlaces h1 {
     font-size: 24px;
 }
 
+
 .enlaces a {
-    color: #1E90FF;
+    color: #ffffff;
     text-decoration: none;
+
 }
 
-/* Para pantallas pequeñas */
+/*Transicion de estilos para los links*/
+a:hover,
+/*Le genera un pequeño brillo*/
+a:focus,
+/*Marcado, sale color*/
+a:active {
+    color: rgb(33, 248, 237);
+}
+
+/*Para pantallas pequeñas*/
 @media (max-width: 768px) {
     .barra-superior {
+        /*Cambia la disposición de los elementos dentro del contenedor .barra-superior a una dirección vertical (en columnas), 
+        en lugar de la dirección horizontal habitual.*/
         flex-direction: column;
+        /*Alinea todos los elementos dentro del contenedor de la .barra-superior al centro horizontal del contenedor.*/
         align-items: center;
     }
 
     .enlaces {
+        /*Hace que los elementos dentro de .enlaces se apilen uno debajo de otro en una dirección vertical.*/
         flex-direction: column;
+        /*Añade un espacio de 10 píxeles entre los elementos dentro del contenedor .enlaces.*/
         gap: 10px;
     }
 
     .logo-youtube {
+        /*Tamaño del logo*/
         font-size: 40px;
     }
 }
@@ -53,18 +80,173 @@ html {
 /*Todo este código tiene la función de cambiar 3 cosas Liga: color amarillo, Pro: color azúl y Ecuador:color rojo complementando el 2024*/
 .titulo {
     text-align: center;
-    color: rgba(137, 204, 248, 0.87);
-    text-decoration: underline;
 }
+
 /*Todo este código tiene la función de cambiar 3 cosas Liga: color amarillo, Pro: color azúl y Ecuador:color rojo complementando el 2024*/
 .liga {
     color: yellow;
 }
+
 /*Todo este código tiene la función de cambiar 3 cosas Liga: color amarillo, Pro: color azúl y Ecuador:color rojo complementando el 2024*/
 .pro {
     color: blue;
 }
+
 /*Todo este código tiene la función de cambiar 3 cosas Liga: color amarillo, Pro: color azúl y Ecuador:color rojo complementando el 2024*/
 .ecuador {
     color: red;
 }
+
+/*Añadimos color en ".introducción", letra Times New Roman y debe ser de 14px*/
+.introduccion {
+    color: rgb(255, 255, 255);
+
+    font-family: 'Times New Roman', Times, serif;
+    size: 14px;
+}
+
+.tabla-principal {
+    text-align: center
+}
+
+/*Hará que el texto de la tabla de la página principal tenga color, su texto esté alineado al centro y su letra sea Cinzel*/
+.TextoTablaPrincipal {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Cinzel&family=Saira";
+}
+
+/*Damos color a los bordes de la tabla y una sombra*/
+.BordesTabla {
+    border-color: rgb(13, 248, 236);
+    text-shadow: 2px 2px 4px black;
+}
+
+
+.EncabezadotablaPrincipal {
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 43, 10);
+}
+
+/*Le damos un fondo amarillo*/
+.tablafondoazul {
+    color: rgb(247, 247, 247);
+    background-color: rgb(222, 212, 70);
+    text-shadow: 2px 2px 4px black
+}
+
+/*Le damos un fondo azúl*/
+.tablafondorojo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 11, 184);
+}
+
+/*Le damos un fondo rojo*/
+.tablafondoamarillo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(79, 32, 41);
+    padding: 8px;
+    ;
+}
+
+.video-container {
+    display: flex;
+    /*Centra horizontalmente*/
+    justify-content: center;
+    /*Centra verticalmente si es necesario*/
+    align-items: center;
+    /*Ajusta la altura para centrar verticalmente*/
+    height: 100vh;
+}
+
+.resultados {
+    size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.proxima-jornada {
+    font-family: "Cinzel";
+
+}
+
+.listaresultados {
+    color: rgb(250, 250, 250);
+    font-style: normal;
+    font-weight: 10px;
+}
+
+.proxima-jornada {
+    color: rgb(255, 255, 255)
+}
+
+.colortituloJonarnax {
+    color: rgb(101, 175, 238);
+}
+
+/*------------------------------------*/
+
+/* Estilos generales */
+footer {
+    background-color: #3f5266;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1px;
+}
+
+
+/* Sección About */
+.footer-acercade h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #f2c94c;
+}
+
+.footer-acercade p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .footer-newsletter input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-social {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*---------------------------------------------------*/
+/*Página Horarios*/
+
+
+.tabla-horarios,
+.tabla-horarios2,
+.tabla-horarios3,
+.tabla-horarios4 {
+  width: 48%; /* Ajusta el ancho de cada tabla */
+}
+.body-horario {
+    font-size: 16px;
+    background-image: url(../ImagenesPro/Fondito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+

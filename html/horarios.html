@@ -7,19 +7,19 @@
     <link rel="icon" type="image/jpg" sizes="32x32" href="ImagenesPro/Logo pagina.jpg">
     <title>Horarios</title>
     <!--CSS-->
-    <link rel="stylesheet" href="estilos/base.css">
-    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="stylesheet" href="../estilos/bases.css">
+    <link rel="stylesheet" href="../estilos/mains.css">
 </head>
 
 <body class="body-horario">
     <header>
         <h2>Horarios Primera Etapa Liga Pro Ecuador 2024</h2>
     </header>
+    <div class="grid-container">
+        <section class="tabla-horarios" style="text-align: center;">
 
-    <section class="tabla-horarios" style="text-align: center;">
-        <div>
+
             <h2 style="color: aliceblue; text-align: center;">Tabla de Posiciones (LigaPro Serie A 2024 - Fase Dos)</h2>
-            <!--Creamos la primera tabla acerca de la primera Jornada de la Liga Pro-->
             <table border="1px" align="center" style="border-color: rgb(28, 31, 30); text-shadow: 2px 2px 4px black;">
                 <!--Encabezado de la tabla-->
                 <tr style="color: rgb(255, 255, 255); background-color: rgb(38, 43, 10);">
@@ -29,85 +29,69 @@
                     <th>Marcador</th>
                     <th>Status</th>
                 </tr>
-                <div>
-                    <!--Atributos de la secciones-->
-                    <tr style="color: rgb(247, 247, 247); background-color: rgb(37, 11, 184);">
-                        <td style="text-align: center">1</td>
-                        <td>1/3/2024 19:00</td>
-                        <td style="text-align: center">Delfín vs Independiente del Valle</td>
-                        <td style="text-align: center;">0-1</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                    <!--Atributos de la secciones-->
-                    <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
-                        <td style="text-align: center">1</td>
-                        <td>2/3/2024 13:00</td>
-                        <td style="text-align: center">Mushuc Runa vs Libertad</td>
-                        <td style="text-align: center;">2-1</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                    <!--Atributos de la secciones-->
-                    <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
-                        <td style="text-align: center">1</td>
-                        <td>2/3/2024 15:30</td>
-                        <td style="text-align: center">Aucas vs Orense</td>
-                        <td style="text-align: center;">2-0</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                </div>
-                <div>
-                    <!--Atributos de la secciones-->
-                    <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
-                        <td style="text-align: center">1</td>
-                        <td>2/3/2024 18:00</td>
-                        <td style="text-align: center">Deportivo Cuenca vs Emelec</td>
-                        <td style="text-align: center;">1-2</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                    <!--Atributos de la secciones-->
-                    <tr
-                        style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);; padding: 8px; text-shadow: 2px 2px 4px black;">
-                        <td style="text-align: center">1</td>
-                        <td>3/3/2024 13:00</td>
-                        <td style="text-align: center">Universidad Católica vs El Nacional</td>
-                        <td style="text-align: center;">3-0</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                    <!--Atributos de la secciones-->
-                    <tr
-                        style="color: rgb(243, 243, 243); background-color: rgb(75, 32, 41);; padding: 8px; text-shadow: 2px 2px 4px black;">
-                        <td style="text-align: center">1</td>
-                        <td>3/3/2024 15:30</td>
-                        <td style="text-align: center">Técnico Universitario vs Cumbayá FC</td>
-                        <td style="text-align: center;">1-0</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                </div>
-                <div>
-                    <tr
-                        style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70); padding: 8px; text-shadow: 2px 2px 4px black;">
-                        <td style="text-align: center">1</td>
-                        <td>3/3/2024 18:00</td>
-                        <td style="text-align: center">Barcelona SC vs Imbabura</td>
-                        <td style="text-align: center;">2-0</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                    <tr
-                        style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70); padding: 8px; text-shadow: 2px 2px 4px black;">
-                        <td style="text-align: center">1</td>
-                        <td>4/3/2024 19:00</td>
-                        <td style="text-align: center">Liga de Quito vs Macará</td>
-                        <td style="text-align: center;">2-1</td>
-                        <td style="text-align: center">Finalizado</td>
-                    </tr>
-                </div>
+                <!--Filas de partidos-->
+                <tr style="color: rgb(247, 247, 247); background-color: rgb(37, 11, 184);">
+                    <td style="text-align: center">1</td>
+                    <td>1/3/2024 19:00</td>
+                    <td style="text-align: center">Delfín vs Independiente del Valle</td>
+                    <td style="text-align: center;">0-1</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
+                    <td style="text-align: center">1</td>
+                    <td>2/3/2024 13:00</td>
+                    <td style="text-align: center">Mushuc Runa vs Libertad</td>
+                    <td style="text-align: center;">2-1</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
+                    <td style="text-align: center">1</td>
+                    <td>2/3/2024 15:30</td>
+                    <td style="text-align: center">Aucas vs Orense</td>
+                    <td style="text-align: center;">2-0</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
+                    <td style="text-align: center">1</td>
+                    <td>2/3/2024 18:00</td>
+                    <td style="text-align: center">Deportivo Cuenca vs Emelec</td>
+                    <td style="text-align: center;">1-2</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
+                    <td style="text-align: center">1</td>
+                    <td>3/3/2024 13:00</td>
+                    <td style="text-align: center">Universidad Católica vs El Nacional</td>
+                    <td style="text-align: center;">3-0</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(243, 243, 243); background-color: rgb(75, 32, 41);">
+                    <td style="text-align: center">1</td>
+                    <td>3/3/2024 15:30</td>
+                    <td style="text-align: center">Técnico Universitario vs Cumbayá FC</td>
+                    <td style="text-align: center;">1-0</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70);">
+                    <td style="text-align: center">1</td>
+                    <td>3/3/2024 18:00</td>
+                    <td style="text-align: center">Barcelona SC vs Imbabura</td>
+                    <td style="text-align: center;">2-0</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
+                <tr style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70);">
+                    <td style="text-align: center">1</td>
+                    <td>4/3/2024 19:00</td>
+                    <td style="text-align: center">Liga de Quito vs Macará</td>
+                    <td style="text-align: center;">2-1</td>
+                    <td style="text-align: center">Finalizado</td>
+                </tr>
             </table>
-        </div>
+    </div>
     </section>
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
     <section class="tabla-horarios2">
         <table border="1px" align="center" style="border-color: rgb(28, 31, 30); text-shadow: 2px 2px 4px black;">
-            <!--Creamos la primera tabla acerca de la segunda Jornada de la Liga Pro-->
             <tr style="color: rgb(255, 255, 255); background-color: rgb(38, 43, 10);">
                 <th>Jornada</th>
                 <th>Fecha</th>
@@ -115,78 +99,48 @@
                 <th>Marcador</th>
                 <th>Status</th>
             </tr>
-            <div>
-                <!--Atributos de la secciones-->
-                <tr style="color: rgb(247, 247, 247); background-color: rgb(37, 11, 184);">
-                    <td style="text-align: center">2</td>
-                    <td>1/3/2024 19:00</td>
-                    <td style="text-align: center">Emelec vs Mushuc Runa</td>
-                    <td style="text-align: center;">0-1</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-                <!--Atributos de la secciones-->
-                <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
-                    <td style="text-align: center">2</td>
-                    <td>9/3/2024 13:00</td>
-                    <td style="text-align: center">Macará vs El Nacional</td>
-                    <td style="text-align: center;">1-0</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-                <!--Atributos de la secciones-->
-                <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
-                    <td style="text-align: center">2</td>
-                    <td>9/3/2024 15:30</td>
-                    <td style="text-align: center">Imbabura vs El Delfín</td>
-                    <td style="text-align: center;">3-0</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-            </div>
-            <div>
-                <!--Atributos de la secciones-->
-                <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
-                    <td style="text-align: center">2</td>
-                    <td>3/3/2024 13:00</td>
-                    <td style="text-align: center">Independiente del Valle vs Barcelona SC</td>
-                    <td style="text-align: center;">3-1</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-                <!--Atributos de la secciones-->
-                <tr
-                    style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);; padding: 8px; text-shadow: 2px 2px 4px black;">
-                    <td style="text-align: center">2</td>
-                    <td>3/3/2024 13:00</td>
-                    <td style="text-align: center">Aucas vs Técnico Universitario</td>
-                    <td style="text-align: center;">3-1</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-                <!--Atributos de la secciones-->
-                <tr
-                    style="color: rgb(243, 243, 243); background-color: rgb(75, 32, 41);; padding: 8px; text-shadow: 2px 2px 4px black;">
-                    <td style="text-align: center">2</td>
-                    <td>10/3/2024 15:30</td>
-                    <td style="text-align: center">Orense vs Deportivo Cuenca</td>
-                    <td style="text-align: center;">1-1</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-            </div>
-            <div>
-                <tr
-                    style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70); padding: 8px; text-shadow: 2px 2px 4px black;">
-                    <td style="text-align: center">2</td>
-                    <td>3/3/2024 18:00</td>
-                    <td style="text-align: center">Cumbayá FC vs Liga de Quito</td>
-                    <td style="text-align: center;">1-3</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-                <tr
-                    style="color: rgb(243, 243, 243); background-color: rgb(223, 212, 70); padding: 8px; text-shadow: 2px 2px 4px black;">
-                    <td style="text-align: center">2</td>
-                    <td>4/3/2024 19:00</td>
-                    <td style="text-align: center">Libertad vs Universidad Católica</td>
-                    <td style="text-align: center;">0-1</td>
-                    <td style="text-align: center">Finalizado</td>
-                </tr>
-            </div>
+            <tr style="color: rgb(247, 247, 247); background-color: rgb(37, 11, 184);">
+                <td style="text-align: center">2</td>
+                <td>1/3/2024 19:00</td>
+                <td style="text-align: center">Emelec vs Mushuc Runa</td>
+                <td style="text-align: center;">0-1</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
+            <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
+                <td style="text-align: center">2</td>
+                <td>9/3/2024 13:00</td>
+                <td style="text-align: center">Macará vs El Nacional</td>
+                <td style="text-align: center;">1-0</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
+            <tr style="color: rgb(255, 255, 255); background-color: rgb(32, 10, 155);">
+                <td style="text-align: center">2</td>
+                <td>9/3/2024 15:30</td>
+                <td style="text-align: center">Imbabura vs Delfín</td>
+                <td style="text-align: center;">3-0</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
+            <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
+                <td style="text-align: center">2</td>
+                <td>3/3/2024 13:00</td>
+                <td style="text-align: center">Independiente del Valle vs Barcelona SC</td>
+                <td style="text-align: center;">3-1</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
+            <tr style="color: rgb(255, 255, 255); background-color: rgb(75, 32, 41);">
+                <td style="text-align: center">2</td>
+                <td>3/3/2024 13:00</td>
+                <td style="text-align: center">Aucas vs Técnico Universitario</td>
+                <td style="text-align: center;">3-1</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
+            <tr style="color: rgb(243, 243, 243); background-color: rgb(75, 32, 41);">
+                <td style="text-align: center">2</td>
+                <td>10/3/2024 15:30</td>
+                <td style="text-align: center">Libertad vs Orense</td>
+                <td style="text-align: center;">2-1</td>
+                <td style="text-align: center">Finalizado</td>
+            </tr>
         </table>
     </section>
     <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
