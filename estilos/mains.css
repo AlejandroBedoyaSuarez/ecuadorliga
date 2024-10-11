@@ -277,33 +277,36 @@ footer {
 /*---------------------------------------------------*/
 /*Página Horarios*/
 
+/*todos los h2 en las tablas deben ser de color de texto blanco y alineados al centro*/
 .h2-tablas {
     color: aliceblue;
     text-align: center;
 }
-
+/*Esta clase da el color del borde y la sombra al encabezado*/
 .Encabesha {
     border-color: rgb(28, 31, 30);
     text-shadow: 2px 2px 4px black;
 }
-
+/*Esta clase nos permite poner el texto de color blanco y un fondo gris/verde */
 .EncabezadoTabla1 {
     color: rgb(255, 255, 255);
     background-color: rgb(38, 43, 10);
 }
 
+/*Podemos poner el texto blanco, centrado y de fondo amarillo*/
 .colorAmarillo{
     color: #ffffff;
     text-align: center;
     background-color: #f2c94c;
 }
 
+/*Podemos poner el texto blanco, centrado y de fondo azúl*/
 .colorAzul{
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: blue;
 }
-
+/*Podemos poner el texto blanco, centrado y de fondo rojo*/
 .colorRojo{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -311,15 +314,6 @@ footer {
 }
 
 
-html {
-    font-size: 16px;
-    background-image: url(../ImagenesPro/Fondito.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
 
 
 .tabla-horarios,
@@ -340,6 +334,23 @@ html {
 /*------------------------------------------------------*/
 
 /*Equipos*/
+
+/*Todo el texto html debe tener esas especificaciones*/
+html {
+    /*tamaño de letra de 16px*/
+    font-size: 16px;
+    /*fondo de la imagen que quede bien*/
+    background-image: url(../ImagenesPro/Fondito.jpg);
+    /*Imagen posicionada al centro*/
+    background-position: center;
+    /*No se va a repetir la imagen en la pantalla, será única*/
+    background-repeat: no-repeat;
+    /*Cubre toda la página*/
+    background-size: cover;
+    /*arregla cualquier desalineado en la imagen adaptable*/
+    background-attachment: fixed;
+
+}
 
 .Titulo-equipos{
     font-family: teko;
