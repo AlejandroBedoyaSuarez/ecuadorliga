@@ -1,9 +1,15 @@
 html {
+    /*Tamaño de la letra en 16px*/
     font-size: 16px;
+    /*Ponemos una imagen de fondo que se adapte a nuestra iniciativa*/
     background-image: url(../ImagenesPro/Fondito.jpg);
+    /*Tiene que estar centrada*/
     background-position: center;
+    /*No se debe repetir en la página*/
     background-repeat: no-repeat;
+    /*Debe cubrir toda la página*/
     background-size: cover;
+    /*Se debe ajustar a todo el entorno de la resolución en pantalla*/
     background-attachment: fixed;
 
 }
@@ -11,36 +17,49 @@ html {
 
 /*Para la barra superior*/
 .barra-superior {
+    /*Es un flexbox que sirve para organizar los eventos en la barra*/
     display: flex;
+    /*Se distribuyen los elementos a ambos extremos*/
     justify-content: space-between;
+    /*Alineamos los elementos en la barra*/
     align-items: center;
+    /*añadimos uno de 10px para que se tenga un poco de espacio interno en la barra*/
     padding: 10px;
 }
 
 /*Para el logo de YouTube*/
 .logo-youtube {
+    /*Eliminamos subrayado de enlaces para que el logo se vea limpio*/
     text-decoration: none;
+    /*le damos color rojo*/
     color: #ca7474;
+    /*hacemos más grande el logo para que sea más grande y visible*/
     font-size: 50px;
+    /*aplicamos esta transición para cuando tengamos un hover, active o cualquier cambio tenga una transición suave*/
     transition: color 0.3s ease
 }
 
 /*Enlaces de "Horarios" y "Equipos"*/
 .enlaces {
+    /*Sirve para organizar los eventos en los enlaces*/
     display: flex;
+    /*Controla el espacio entre las filas y columnas, o entre los elementos dentro de un contenedor, sin necesidad de agregar márgenes manualmente a cada uno*/
     gap: 100px;
     /* Espacio entre los enlaces */
     padding-right: 30px;
     /* Espacio a la derecha */
 }
 
+/*En los enlaces que tengan h1, tendrán que ser de 24px*/
 .enlaces h1 {
     font-size: 24px;
 }
 
-
+/*Aplica estilos a los elementos <a> (enlaces) que se encuentran dentro de un contenedor con la clase enlaces*/
 .enlaces a {
+    /* Define el color del texto de los enlaces dentro de la clase "enlaces" como blanco*/
     color: #ffffff;
+    /* Elimina el subrayado predeterminado de los enlaces, haciendo que se vean más limpios*/
     text-decoration: none;
 
 }
@@ -105,6 +124,7 @@ a:active {
     size: 14px;
 }
 
+/*Los textos de la tabla principal estarán centrados*/
 .tabla-principal {
     text-align: center
 }
@@ -112,43 +132,58 @@ a:active {
 /*Hará que el texto de la tabla de la página principal tenga color, su texto esté alineado al centro y su letra sea Cinzel*/
 .TextoTablaPrincipal {
     color: aliceblue;
+    /*Alineado al centro*/
     text-align: center;
+    /*De la fuente de google Cinzel Saira*/
     font-family: "Cinzel&family=Saira";
 }
 
 /*Damos color a los bordes de la tabla y una sombra*/
 .BordesTabla {
+    /*Le damos color al borde de la tabla*/
     border-color: rgb(13, 248, 236);
+    /*Le damos una sombra para que resalte*/
     text-shadow: 2px 2px 4px black;
 }
 
-
+/*Clase para modificar el encabezado de la tabla principal de la página*/
 .EncabezadotablaPrincipal {
+    /*Le damos color al encabezado de la tabla*/
     color: rgb(255, 255, 255);
+    /*Le damos una sombra para que resalte*/
     background-color: rgb(37, 43, 10);
 }
 
-/*Le damos un fondo amarillo*/
+/*Le damos un fondo amarillo. Esto no confunde al desarrollador por los comentarios, es una medida de entendimiento de trabajo propio*/
 .tablafondoazul {
+    /*Color de texto en blanco*/
     color: rgb(247, 247, 247);
+    /*Fondo Amarillo*/
     background-color: rgb(222, 212, 70);
+    /*Le damos una sombra para que resalte*/
     text-shadow: 2px 2px 4px black
 }
 
-/*Le damos un fondo azúl*/
+/*Le damos un fondo azúl. Esto no confunde al desarrollador por los comentarios, es una medida de entendimiento de trabajo propio*/
 .tablafondorojo {
+    /*Color de texto blanco*/
     color: rgb(255, 255, 255);
+    /*Color de fondo azúl*/
     background-color: rgb(36, 11, 184);
 }
 
-/*Le damos un fondo rojo*/
+/*Le damos un fondo rojo. Esto no confunde al desarrollador por los comentarios, es una medida de entendimiento de trabajo propio*/
 .tablafondoamarillo {
+    /*Color de texto blanco*/
     color: rgb(255, 255, 255);
+    /*Color de fondo rojo*/
     background-color: rgb(79, 32, 41);
+    /*Margen interno de 8px*/
     padding: 8px;
     ;
 }
 
+/*Clase creada para el video de página principal*/
 .video-container {
     display: flex;
     /*Centra horizontalmente*/
@@ -159,36 +194,50 @@ a:active {
     height: 100vh;
 }
 
+/*Clase creada para texto de resultados*/
 .resultados {
+    /*Tamaño de letra 20*/
     size: 20px;
+    /*Tipo de letra Franklin Gothic Medium */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/*Clase creada para texto de las próximas jornadas*/
 .proxima-jornada {
+    /*Fuente de google Cinzel*/
     font-family: "Cinzel";
 
 }
 
+/*Clase creada para texto para la lista de resultados*/
 .listaresultados {
+    /*Color de texto blanco*/
     color: rgb(250, 250, 250);
+    /*Fuente de google Cinzel*/
     font-style: normal;
+    /*Peso de la letra de 10px(cantidad visual)*/
     font-weight: 10px;
 }
 
+/*Clase creada para texto de resultados*/
 .proxima-jornada {
     color: rgb(255, 255, 255)
 }
 
+/*Clase creada para texto de resultados*/
 .colortituloJonarnax {
     color: rgb(101, 175, 238);
 }
 
 /*------------------------------------*/
 
-/* Estilos generales */
+/* Estilos generales para footer*/
 footer {
+    /*Fondo de color azulado*/
     background-color: #3f5266;
+    /*texto de color blanco*/
     color: white;
+    /*Fuente Open Sans*/
     font-family: 'Open Sans', sans-serif;
     padding: 1px;
 }
@@ -196,11 +245,14 @@ footer {
 
 /* Sección About */
 .footer-acercade h3 {
+    /*28 px de tamaño de letra*/
     font-size: 28px;
+    /*15px de margen de abajo*/
     margin-bottom: 15px;
+    /*de color amarillo el texto*/
     color: #f2c94c;
 }
-
+/* Sección About */
 .footer-acercade p {
     font-size: 14px;
     line-height: 1.8;
@@ -208,19 +260,11 @@ footer {
 
 
 /* Diseño responsive */
+/*Todo esto sirve para adaptar la resolución en dispositivos más pequeños */
 @media (max-width: 768px) {
     .footer-container {
         grid-template-columns: 1fr 1fr;
         text-align: center;
-    }
-
-    .footer-newsletter input {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .footer-social {
-        grid-column: span 2;
     }
 }
 
